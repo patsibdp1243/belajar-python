@@ -1,0 +1,2 @@
+# belajar-python
+studying python
