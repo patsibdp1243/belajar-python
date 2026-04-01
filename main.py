@@ -36,10 +36,31 @@ for price in prices:
 
 print(f"Your total is : {total}") """
 
-fruits = ["apple", "orange", "dragonfruit" , "banana"]
+"""fruits = ["apple", "orange", "dragonfruit" , "banana"]
 vegetables = ["carrots" , "Potatoes" , "Kangkung"]
 meats = ["chicken" , "fish" , "cow"]
 
 groceries = [fruits,vegetables,meats]
 
-print(groceries[1][2])
+print(groceries[1][2])"""
+
+spec = {"Brand":"ASUS",
+        "Name":"TUF",
+        "Owner":"Me",
+        "Date":"3 Years Ago"}
+
+#spec.update({"Condition":"Used"})
+#print(spec.get("Condition"))
+
+"""keys = spec.keys()
+for key in spec.keys():
+    print(key)"""
+
+"""for value in spec.values():
+    print(value)"""
+items = spec.items()
+print(items)
+
+
+for key, value in spec.items():
+    print(f"{key}:{value}")

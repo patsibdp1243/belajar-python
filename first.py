@@ -1,3 +1,4 @@
+import random
 """principle = 0
 rate = 0
 time = 0
@@ -19,7 +20,7 @@ while time <= 0:
 total = principle * pow((1 + rate / 100), time)
 print(f"Balance after {time} year/s: ${total:.2f}")"""
 
-num_pad = ( (1, 2, 3), 
+"""num_pad = ( (1, 2, 3), 
             (4, 5, 6), 
             (7, 8, 9), 
             ("*", 0, "#"))
@@ -27,4 +28,8 @@ num_pad = ( (1, 2, 3),
 for row in num_pad:
     for num in row:
         print(num, end=" ")
-    print()
+    print()"""
+
+number = random.randint(1, 6)
+
+print(number)
