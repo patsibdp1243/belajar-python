@@ -1,4 +1,4 @@
-principle = 0
+"""principle = 0
 rate = 0
 time = 0
 
@@ -17,4 +17,14 @@ while time <= 0:
     if time <= 0:
         print("Time cant be less or equal to zero")
 total = principle * pow((1 + rate / 100), time)
-print(f"Balance after {time} year/s: ${total:.2f}")
+print(f"Balance after {time} year/s: ${total:.2f}")"""
+
+num_pad = ( (1, 2, 3), 
+            (4, 5, 6), 
+            (7, 8, 9), 
+            ("*", 0, "#"))
+
+for row in num_pad:
+    for num in row:
+        print(num, end=" ")
+    print()

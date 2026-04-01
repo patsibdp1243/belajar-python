@@ -10,7 +10,7 @@ for x in range (my_time, 0, -1):
     time.sleep(1)
 
 print("Times up") """
-
+"""
 foods = []
 prices = []
 total = 0
@@ -34,4 +34,12 @@ print()
 for price in prices:
     total += price
 
-print(f"Your total is : {total}")
+print(f"Your total is : {total}") """
+
+fruits = ["apple", "orange", "dragonfruit" , "banana"]
+vegetables = ["carrots" , "Potatoes" , "Kangkung"]
+meats = ["chicken" , "fish" , "cow"]
+
+groceries = [fruits,vegetables,meats]
+
+print(groceries[1][2])
